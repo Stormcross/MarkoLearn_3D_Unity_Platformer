@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class KillPlayer : MonoBehaviour
 {
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +24,8 @@ public class KillPlayer : MonoBehaviour
         //tag se definira  u unity inspektoru Tag
         if (other.tag=="Player")
         {
-            Debug.Log("Entered kill zone"); //saljemo si u unity poruku
+            //Debug.Log("Entered kill zone"); //saljemo si u unity poruku
+            GameManager.instance.Respawn(); //pozivamo instancu u game manageru i povezana je na sve game managere
         }
     }
 }
