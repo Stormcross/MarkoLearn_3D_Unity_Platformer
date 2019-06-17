@@ -116,6 +116,7 @@
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineShot.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\KillPlayer.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
@@ -128,6 +129,9 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
@@ -137,14 +141,11 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>F:/UNITY_PROJECTS/2019.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

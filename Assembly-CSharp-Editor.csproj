@@ -108,6 +108,9 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
@@ -117,14 +120,11 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>F:/UNITY_PROJECTS/2019.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -330,6 +330,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
@@ -341,9 +344,6 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Advertisements">
-      <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>F:/UNITY_PROJECTS/2019.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
