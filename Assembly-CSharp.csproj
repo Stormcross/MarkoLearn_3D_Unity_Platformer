@@ -119,6 +119,7 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\KillPlayer.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\UIManager.cs" />
     <None Include="Assets\_Udemy 3D Platformer Assets\navmesh link.txt" />
     <None Include="Assets\_Udemy 3D Platformer Assets\Skybox\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\_Udemy 3D Platformer Assets\credits.txt" />
@@ -138,6 +139,12 @@
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>F:/UNITY_PROJECTS/MarkoLearn_3D_Unity_Platformer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>F:/UNITY_PROJECTS/2019.1.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

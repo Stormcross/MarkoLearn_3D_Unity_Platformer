@@ -42,7 +42,11 @@ public class GameManager : MonoBehaviour
 
         CameraController.instance.theCMBrain.enabled = false; //to ugasi posebno slijedenje playera i kamera postaje normalna fiksna
 
+        UIManager.instance.fadeToBlack = true; //nakon respawna nam se pojavi crni ekran
+
         yield return new WaitForSeconds(2f);
+
+        UIManager.instance.fadeFromBlack = true;
 
         PlayerController.instance.transform.position = respawpPosition;
 
