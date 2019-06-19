@@ -46,6 +46,8 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForSeconds(2f);
 
+        HealthManager.instance.ResetHealth();
+
         UIManager.instance.fadeFromBlack = true;
 
         PlayerController.instance.transform.position = respawpPosition;
